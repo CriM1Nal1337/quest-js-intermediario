@@ -1,0 +1,87 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.duvidas {
+    width: 300px;
+}
+
+.duvidas .title {
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.duvidas .p {
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 42px;
+}
+
+.form .input,
+#enviar {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 298.01px;
+    height: 35.11px;
+    color: #A8A8A8;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 8px;
+    outline: none;
+}
+
+.form #msg {
+    height: 100px;
+    resize: none;
+}
+
+.form .span {
+    margin-bottom: 8px;
+}
+
+.form #enviar {
+    color: #ffffff;
+    background-color: #3CCC87;
+    border: none;
+}
+
+.form .input.border-green {
+    border: 2px solid #00C22B;
+}
+
+.form .input.border-red {
+    border-color: #F52E2E;
+}
+
+.red {
+    color: #F52E2E;
+    font-size: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.hidden {
+    visibility: hidden;
+}
